@@ -56,12 +56,12 @@
             <!-- MENU LINKS -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" class="smoothScroll">Home</a></li>
-                    <li><a href="#about" class="smoothScroll">Cardio Equipment </a></li>
-                    <li><a href="#team" class="smoothScroll">Strength Equipment</a></li>
-                    <li><a href="#contact" class="smoothScroll">Gym Packages</a></li>
-                    <li><a href="#contact" class="smoothScroll"><i class="fas fa-search"></i></a></li>
-                    <li><a href="#contact" class="smoothScroll"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li class="navlink"><a href="#home" class="smoothScroll">Home</a></li>
+                    <li class="navlink"><a href="#about" class="smoothScroll">Cardio Equipment </a></li>
+                    <li class="navlink"><a href="#team" class="smoothScroll">Strength Equipment</a></li>
+                    <li class="navlink"><a href="#contact" class="smoothScroll">Gym Packages</a></li>
+                    <li class="navlink"><a href="#contact" class="smoothScroll"><i class="fas fa-search"></i></a></li>
+                    <li class="navlink"><a href="#contact" class="smoothScroll"><i class="fas fa-shopping-cart"></i></a></li>
 
                 </ul>
             </div>

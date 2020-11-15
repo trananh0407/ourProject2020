@@ -146,7 +146,7 @@ html {
 }
 
 a {
-  color: #4dc47d;
+  color: #f9f9f9;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -230,7 +230,7 @@ footer {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 1px solid #959595;
+  border: 5px solid #000000;
   border-top-color: #ffffff;
   animation: spinner 0.9s linear infinite;
 }
@@ -295,14 +295,14 @@ footer {
 .custom-navbar .navbar-nav li a:hover:after,
 .custom-navbar .nav li.active > a:after {
   background: #ffffff;
-  color: #ffffff;
+  /* color: red; */
   width: 100%;
 }
 
-.custom-navbar .nav li.active > a {
+/* .custom-navbar .nav li.active > a:after {
   background-color: transparent;
   color: #ffffff;
-}
+} */
 
 .custom-navbar .navbar-toggle {
   border: none;
@@ -386,7 +386,6 @@ footer {
 
 
 #fh5co-gallery, #fh5co-testimonial {
-
 clear: both;
 background-color: #ffffff;
 padding-top: 7em;
@@ -573,35 +572,34 @@ width: 49%;
 }
 }
 
-/* client */
+/* Happy Client */
 #fh5co-testimonial {
   background: #ffffff;
-}
-#fh5co-testimonial .testimony-slide {
   text-align: center;
 }
-#fh5co-testimonial .testimony-slide span {
+
+#fh5co-testimonial span {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
   display: block;
 }
-#fh5co-testimonial .testimony-slide figure {
+#fh5co-testimonial figure {
   margin-bottom: 10px;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
 }
-#fh5co-testimonial .testimony-slide figure img {
-  width: 100px;
+#fh5co-testimonial figure img {
+  width: 200px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#fh5co-testimonial .testimony-slide blockquote {
+#fh5co-testimonial blockquote {
   border: none;
   margin: 30px auto;
   width: 70%;
@@ -609,7 +607,7 @@ width: 49%;
   padding: 0;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-testimonial .testimony-slide blockquote {
+  #fh5co-testimonial blockquote {
     width: 100%;
   }
 }
@@ -631,56 +629,6 @@ width: 49%;
   background: rgba(0, 0, 0, 0.05);
 }
 
-
-/*---------------------------------------
-  CONTACT             
------------------------------------------*/
-
-#contact {
-  background: url("../images/contact-bg.jpg") 50% 0 repeat-y fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
-#contact-form {
-  padding-top: 22px;
-}
-
-#contact .text-success,
-#contact .text-danger {
-  display: none;
-  padding: 0 0 5px 20px;
-}
-
-#contact .form-control {
-  border: none;
-  box-shadow: none;
-  font-size: 18px;
-  font-weight: normal;
-  margin-bottom: 22px;
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
-}
-
-#contact .form-control:focus {
-  border-color: #d9d9d9;
-}
-
-#contact input {
-  height: 55px;
-  line-height: 45px;
-}
-
-#contact .section-btn {
-  margin: 5px 0 0 0;
-}
-
-#contact button#cf-submit {
-  background: transparent;
-  border: none;
-  padding: 0;
-  line-height: 50px;
-}
 
 /*---------------------------------------
   FOOTER              
