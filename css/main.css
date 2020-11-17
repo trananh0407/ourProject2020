@@ -138,24 +138,26 @@ p {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
-    left: 0;
+    /* bottom: 0;
+    left: 0; */
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+
   }
 
   video {
-    position: fixed;
+    position: relative;
     top: 50%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
+    /* background-size: cover; */
     transition: 1s opacity;
   }
 
@@ -187,7 +189,7 @@ p {
     padding: 0 25px;
     background: red;
     border-radius: 1px;
-    /* -webkit-transition: -webkit-transform 0.3s;
+    -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
     -webkit-transform-origin: 50% 0;
@@ -195,7 +197,7 @@ p {
     transform-origin: 50% 0;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d; */
+    transform-style: preserve-3d;
   }
 
   .section-btn a span:hover {
@@ -203,7 +205,7 @@ p {
       color: white;
   }
   
-  /* .section-btn a span::before
+  .section-btn a span::before
   {
     position: absolute;
     top: 100%;
@@ -234,11 +236,13 @@ p {
     transform: rotateX(90deg) translateY(-22px);
   } 
   
-  .csstransforms3d .section-btn a:hover span::before,
-  .csstransforms3d .section-btn a:focus span::before
+  .section-btn a:hover span::before,
+  .section-btn a:focus span::before
 {
     background: #000000;
-  } */
+    color: white;
+    height: 46px;
+  }
 
 /*---------------------------------------
   BODY HOME    
